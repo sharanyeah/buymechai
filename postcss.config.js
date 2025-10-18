@@ -1,8 +1,8 @@
-export default {
+module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
-    'tw-animate-css': {}, // if you use it
+    'tw-animate-css': {}, 
   },
-  from: undefined, // prevents the PostCSS `from` warning
-}
+  from: undefined, 
+};
